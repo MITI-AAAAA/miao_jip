@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block css_url %}
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style-bigmiao.css') }}">
+{%endblock%}
+
+{% block animal_image %}
+    <img src="{{url_for('static', filename = 'big_miao.jpg') }}" alt="big miao image">
+{%endblock%}
+
+{% block description %}
+    <p>big miao is so cute. Look at its fat(no body! AAAAAAAA SOOOOOO CUTEEEEEEEEEEEE!!!!!!!!!! also, big miao loves my grandma. she doesnt love it back tho... :(</p>
+{%endblock%}

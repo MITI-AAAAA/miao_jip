@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block css_url %}
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style-cutegai.css') }}">
+{%endblock%}
+
+{% block animal_image %}
+    <img src="{{url_for('static', filename = 'cute_gai.jpg') }}" alt="cute gai image">
+{%endblock%}
+
+{% block description %}
+    <p>Cute gai is so cute. Look at its fat(no body! AAAAAAAA SOOOOOO CUTEEEEEEEEEEEE!!!!!!!!!! also, cute miao gai is so squishy. you can use it as a pillow~ this will hurt cute gai tho :(</p>
+{%endblock%}

@@ -1,0 +1,10 @@
+@import 'style-cutemiao.css';
+
+body {
+    background-color: #D9B988;
+}
+
+img {
+    height: 500px;
+    width: auto;
+}
